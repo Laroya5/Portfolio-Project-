@@ -1,0 +1,42 @@
+body {
+    font-family: "Verdana", sans-serif; 
+}
+
+h1, h2, h3 {
+    font-family: "Satisfy", cursive;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: #c53530; 
+}
+
+header h2 {
+    color: white;
+}
+
+.site-footer {
+    background-image: linear-gradient(#e5352f, #d21913, #a91611);
+    padding: 10px 0px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #e5352f, #d21913, #a91611);
+    color: white;
+}
+
+.card-header {
+    color: black;
+}
+
+.row-content {
+    padding: 15px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+

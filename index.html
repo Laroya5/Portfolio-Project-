@@ -1,52 +1,108 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap" />
+
         <title>Xiomara's Day Spa!</title>
     </head>
+
     <body>
-        <header>
-            <div>
-                <h1>Xiomara's Day Spa!</h1>
-                <h2>Come and relax with us! You deserve it!</h2>
+
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                       <img src="img/Portfolio-project-logo.PNG" class="img-fluid" /> 
+                    </div>    
+                    <div class="col">    
+                        <h1>Xiomara's Day Spa!</h1>
+                        <h2>Come and relax with us! You deserve it!</h2>
+                    </div>
+                </div>
             </div>
         </header>
 
-        <div>
-            <h2>Lets talk about us!</h2>
-            <p>"add explaination here"</p>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h2 class="text-sm-center">Lets talk about us!</h2>
+                            <p class="d-none d-sm-block">"Here at Xiomara's Day Spa pride ourselves in making sure you leave here feeling relaxed and ready to take on any challenge. We continue to make sure everyone is soothed and has all the weight lifted off your shoulders. Each and everyday we strive to ensure those who come here feel welcomed and leave feeling amazing and relief. So please come and meet us!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="row row-content align-items-center">
+                <img class="d-flex mr-3 col-5 img-relax" src="img/Relax.jpg" />
+                <div class="col order-sm-last col-md-6">
+                    <div class="card mb-5 mt-5">
+                        <h2 class="card-header bg-danger text-black align-items-center">Store Hours</h2>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-7">Sunday</dt>
+                                <dd class="col">10am to 5pm</dd>
+                                <dt class="col-sm-7">Monday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                                <dt class="col-sm-7">Tuesday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                                <dt class="col-sm-7">Wednesday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                                <dt class="col-sm-7">Thursday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                                <dt class="col-sm-7">Friday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                                <dt class="col-sm-7">Saturday</dt>
+                                <dd class="col">10am to 9pm</dd>
+                            </dl>
+                        </div>
+                    </div>    
+                </div>
+            </div>    
         </div>
 
-        <div>
-            <h2>Store Hours</h2>
-            <ul>
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednsday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-        </div>
-
-        <footer>
-            <div>
-                <h3>Links</h3>
-                <ul>
-                    <li>Home</li>
-                    <li>Amenities</li>
-                    <li>Make an Appointment</li>
-                    <li>Reviews</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Follow us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                </ul>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h3>Links</h3>
+                        <ul class="list-unstyled">
+                            <li>Home</li>
+                            <li>Amenities</li>
+                            <li>Appointments</li>
+                            <li>Reviews</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h3>Follow us</h3>
+                        <ul class="list-unstyled">
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Any questions?</h3>
+                            Call us: 1-702-333-9876<br />
+                            Email us: xiomara@dayspa.com
+                    </div>
+                </div> 
             </div>
         </footer>
+
+        <!--jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
+        <script scr="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script scr="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script scr="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>
